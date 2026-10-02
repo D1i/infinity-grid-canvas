@@ -1,0 +1,26 @@
+{
+  "name": "infinity-grid-canvas",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Infinite drag-and-drop layout canvas with a dynamic coordinate grid, placement prediction and collision resolution. Canvas 2D, virtualized, zero runtime dependencies in the core.",
+  "license": "MIT",
+  "author": "Maxim Kalin",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w apps/demo",
+    "build": "npm run build -w apps/demo",
+    "preview": "npm run preview -w apps/demo",
+    "typecheck": "tsc -p packages/core && tsc -p packages/flow && tsc -p apps/demo --noEmit",
+    "bench": "node bench/run.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.56.0",
+    "typescript": "^5.6.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

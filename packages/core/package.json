@@ -1,0 +1,10 @@
+{
+  "name": "@infinity-grid-canvas/core",
+  "version": "0.1.0",
+  "description": "Infinite drag-and-drop layout grid engine for Canvas 2D: placement prediction, collision resolution, resize anchors, virtualized rendering, pan and zoom.",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "sideEffects": false
+}

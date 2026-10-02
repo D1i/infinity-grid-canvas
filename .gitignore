@@ -1,0 +1,6 @@
+node_modules/
+dist/
+bench/results/*.png
+.DS_Store
+*.log
+bench/results/*.json
